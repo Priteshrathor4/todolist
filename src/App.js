@@ -6,6 +6,7 @@ import { Error } from './Error';
 import { MainHeader } from './components/MainHeader';
 import CapitalText from './extra/CapitalText';
 import { MainPage } from './components/MainPage';
+import { Todolist } from './components/Todolist';
 function App() {
 
   return (
@@ -13,7 +14,8 @@ function App() {
       <Router>
         <MainHeader />
         <Routes>
-          <Route path='/todolist' element={<MainPage />} />
+          <Route path='/' element={<MainPage />} />
+          <Route path='/todolist' element={<Todolist/>} />
           <Route path='/about' element={<About />} />
           <Route path='/upper' element={<CapitalText />} />
           <Route path='*' element={<Error />} />
