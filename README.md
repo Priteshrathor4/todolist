@@ -1,4 +1,4 @@
-https://priteshrathor4.github.ioLive url
+https://priteshrathor4.github.io/todolist live url
 
 # Getting Started with Create React App
 
