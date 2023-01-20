@@ -13,7 +13,7 @@ function App() {
       <Router>
         <MainHeader />
         <Routes>
-          <Route path='/' element={<MainPage />} />
+          <Route path='/todolist' element={<MainPage />} />
           <Route path='/about' element={<About />} />
           <Route path='/upper' element={<CapitalText />} />
           <Route path='*' element={<Error />} />
